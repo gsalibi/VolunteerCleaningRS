@@ -865,3 +865,19 @@ img::-moz-selection {
 body {
     webkit-tap-highlight-color: #{{ site.data.template.color.primary }};
 }
+
+
+.responsive-iframe {
+    width: 100%;
+    height: 70vh; /* 100% da altura da viewport */
+    border: 0;
+    display: block; /* Remove espaços em branco abaixo do iframe */
+    margin: 0;
+    padding: 0;
+}
+
+@media (max-width: 768px) {
+    .responsive-iframe {
+        height: 80vh; /* Ajusta a altura em telas menores */
+    }
+}
