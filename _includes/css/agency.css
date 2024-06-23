@@ -14,6 +14,11 @@ body {
     color: #{{ site.data.template.color.muted }};
 }
 
+.service-text-muted {
+    color: #{{ site.data.template.color.muted }};
+    font-size: 16px;
+}
+
 .text-primary {
     color: #{{ site.data.template.color.primary }};
 }
@@ -351,8 +356,9 @@ section h3.section-subheading {
 }
 
 .service-heading {
-    margin: 15px 0;
+    margin: 0px 0;
     text-transform: none;
+    font-size: 24px;
 }
 
 .timeline {
@@ -668,3 +674,7 @@ body {
         height: 100vh; /* Ajusta a altura em telas menores */
     }
 }
+
+
+
+
