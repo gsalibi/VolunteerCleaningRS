@@ -275,7 +275,9 @@ header {
     color: #fff;
     background-color: #222;
     background-attachment: scroll;
+     /* TODO: Add image/video
     background-image: url('{{ site.baseurl }}/img/header-bg.jpg');
+     */ 
     background-position: center center;
     background-repeat: none;
     -webkit-background-size: cover;
